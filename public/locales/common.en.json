@@ -1,0 +1,11 @@
+{
+  "title": "Compass",
+  "sidebar_routes": {
+    "home": "Home",
+    "favorites": "Favorites"
+  },
+  "movie_card": {
+    "year_of_release": "Year of release",
+    "goto_imdb": "Goto IMDB"
+  }
+}

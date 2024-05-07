@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#app {
+  @apply font-montserrat m-0 h-full;
+}
+
+:root {
+  --compass-expanded-sidebar-width: 16vw;
+  --compass-collapsed-sidebar-width: 6vw;
+  --compass-view-top-bottom-padding: 1.5rem;
+  --compass-pagination-height: 4rem;
+  --compass-sidebar-z-index: 1;
+  --compass-overlay-z-index: 100;
+}
+
+.el-pagination {
+  --el-pagination-font-size: 1rem;
+  background: white;
+  @apply h-[var(--compass-pagination-height)];
+  @apply w-[100vw] left-0 flex items-center justify-center fixed bottom-0;
+}
+
+.el-loading-spinner {
+  @apply fixed left-0 top-1/2 w-[100vw] !important;
+}
+
+.el-input__inner::placeholder {
+  @apply font-montserrat;
+}

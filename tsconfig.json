@@ -1,0 +1,50 @@
+{
+  "baseUrl": ".",
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx",
+    "src/main.js",
+    "src/**/*.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "tests/**/*",
+    "src/**/*.unit.ts",
+    "src/**/*.spec.ts",
+    "src/**/*.spec.ct.ts",
+    "src/**/*.spec.cy.ts",
+    "src/**/*.test.ts"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "outDir": "./dist",
+    "jsx": "preserve",
+    "importHelpers": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["node_modules/@types", "src/@types"],
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "useDefineForClassFields": true,
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
+    "paths": {
+      "*": ["types/*"],
+      "@/*": ["src/*"]
+    },
+    "types": ["node", "@intlify/unplugin-vue-i18n/index"]
+  }
+}

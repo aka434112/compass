@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "johnsoncodehk.volar",
+    "csstools.postcss",
+    "esbenp.prettier-vscode",
+    "knisterpeter.vscode-commitizen",
+    "bradlc.vscode-tailwindcss",
+    "stylelint.vscode-stylelint",
+    "znck.vue-language-features"
+  ]
+}
